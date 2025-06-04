@@ -72,7 +72,7 @@ export default function MentionsLegales() {
                 </div>
                 <div className="flex items-center gap-3">
                   <Mail className="w-4 h-4 text-gray-400" />
-                  <span className="text-gray-600">contact@muriel-artigala.fr</span>
+                  <span className="text-gray-600">muriel.artigala@gmail.com</span>
                 </div>
               </CardContent>
             </Card>

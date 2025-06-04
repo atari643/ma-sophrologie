@@ -4,6 +4,11 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import Header from '@/components/layout/header'
 import Footer from '@/components/layout/footer'
+import StructuredData from '@/components/structured-data'
+import FAQ from '@/components/faq'
+import GoogleBusinessIntegration from '@/components/google-business-integration'
+import { GoogleReviewsDisplay } from '@/components/google-reviews-display'
+import LocalBusinessSchema from '@/components/local-business-schema'
 import { 
   Heart, 
   Users, 
@@ -57,16 +62,11 @@ export default function Home() {
                 </Button>
               </div>
 
-              <div className="flex items-center space-x-6 pt-4">
-                <div className="flex items-center space-x-1">
-                  {[1, 2, 3, 4, 5].map((star) => (
-                    <Star key={star} className="h-5 w-5 fill-yellow-400 text-yellow-400" />
-                  ))}
-                </div>
-                <p className="text-gray-600">
-                  <span className="font-semibold">4.9/5</span> basé sur 127 avis clients
-                </p>
-              </div>
+              {/* Google Business Integration */}
+              <GoogleBusinessIntegration 
+                googleBusinessUrl="https://g.co/kgs/sXFf524"
+                className="pt-4"
+              />
             </div>
 
             <div className="relative">
@@ -277,7 +277,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Section Témoignages */}
+      {/* Section Témoignages et Avis Google */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -285,8 +285,20 @@ export default function Home() {
               Ils nous font confiance
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Découvrez les témoignages de nos clients satisfaits
+              Découvrez les témoignages de nos clients satisfaits et leurs avis Google
             </p>
+          </div>
+
+          {/* Avis Google */}
+          <div className="mb-16">
+            <GoogleReviewsDisplay />
+          </div>
+
+          {/* Témoignages complémentaires */}
+          <div className="text-center mb-8">
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">
+              Autres témoignages
+            </h3>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
@@ -362,6 +374,13 @@ export default function Home() {
         </div>
       </section>
 
+      {/* FAQ Section */}
+      <FAQ 
+        title="Questions Fréquentes sur la Sophrologie"
+        description="Trouvez toutes les réponses sur mes services de sophrologie à Martignas-sur-Jalle pour Bordeaux Métropole"
+        includeSchema={true}
+      />
+
       {/* CTA Final */}
       <section className="py-20 bg-gradient-to-r from-purple-600 to-blue-600">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -382,6 +401,68 @@ export default function Home() {
       </section>
 
       <Footer />
+      <StructuredData />
+      <LocalBusinessSchema
+        name="Muriel Artigala - Sophrologue"
+        description="Cabinet de sophrologie à Martignas-sur-Jalle. Muriel Artigala, sophrologue diplômée ISEBA Bordeaux, propose des séances individuelles et collectives pour la gestion du stress, l'amélioration du sommeil et la confiance en soi."
+        url="https://muriel-artigala.fr"
+        telephone="+33689155021"
+        email="contact@muriel-artigala.fr"
+        address={{
+          streetAddress: "120 avenue de Saint-Emilion",
+          addressLocality: "Martignas-sur-Jalle",
+          postalCode: "33127",
+          addressCountry: "FR"
+        }}
+        geo={{
+          latitude: 44.8437,
+          longitude: -0.7737
+        }}
+        openingHours={[
+          {
+            dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            opens: "10:00",
+            closes: "12:00"
+          },
+          {
+            dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], 
+            opens: "14:00",
+            closes: "19:30"
+          },
+          {
+            dayOfWeek: ["Saturday"],
+            opens: "09:00",
+            closes: "12:00"
+          }
+        ]}
+        priceRange="€€"
+        serviceArea={[
+          "Martignas-sur-Jalle",
+          "Bordeaux",
+          "Pessac", 
+          "Mérignac",
+          "Talence",
+          "Gradignan",
+          "Villenave-d'Ornon",
+          "Gironde"
+        ]}
+        specialties={[
+          "Gestion du stress",
+          "Troubles du sommeil",
+          "Confiance en soi",
+          "Préparation mentale",
+          "Accompagnement périnatal",
+          "Sophrologie entreprise"
+        ]}
+        googleBusinessUrl="https://g.co/kgs/sXFf524"
+        aggregateRating={{
+          ratingValue: 4.9,
+          reviewCount: 38
+        }}
+        sameAs={[
+          "https://www.linkedin.com/in/muriel-artigala"
+        ]}
+      />
     </div>
   )
 }

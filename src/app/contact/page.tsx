@@ -87,10 +87,10 @@ export default function Contact() {
     {
       icon: Mail,
       title: 'Email',
-      value: 'contact@muriel-artigala.fr',
+      value: 'muriel.artigala@gmail.com',
       description: 'Réponse sous 24h',
       action: 'Écrire',
-      href: 'mailto:contact@muriel-artigala.fr'
+      href: 'mailto:muriel.artigala@gmail.com'
     },
     {
       icon: MessageCircle,

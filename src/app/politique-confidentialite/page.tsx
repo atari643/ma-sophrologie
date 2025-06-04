@@ -111,7 +111,7 @@ export default function PolitiqueConfidentialite() {
                     <p><strong>Téléphone :</strong> 06 89 15 50 21</p>
                   </div>
                   <div>
-                    <p><strong>Email :</strong> contact@muriel-artigala.fr</p>
+                    <p><strong>Email :</strong> muriel.artigala@gmail.com</p>
                     <p><strong>SIRET :</strong> 94823934800014</p>
                   </div>
                 </div>
@@ -240,9 +240,9 @@ export default function PolitiqueConfidentialite() {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Button asChild variant="outline">
-                    <Link href="mailto:contact@muriel-artigala.fr">
+                    <Link href="mailto:muriel.artigala@gmail.com">
                       <Mail className="w-4 h-4 mr-2" />
-                      contact@muriel-artigala.fr
+                      muriel.artigala@gmail.com
                     </Link>
                   </Button>
                   <Button asChild variant="outline">
@@ -339,7 +339,7 @@ export default function PolitiqueConfidentialite() {
                     Pour toute question relative à la protection de vos données :
                   </p>
                   <p className="text-gray-700">
-                    <strong>Email :</strong> dpo@muriel-artigala.fr<br />
+                    <strong>Email :</strong> muriel.artigala@gmail.com
                     <strong>Adresse :</strong> DPO - 120 avenue de Saint-Emilion, 33127 Martignas-sur-Jalle
                   </p>
                 </div>
