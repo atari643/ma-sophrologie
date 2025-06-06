@@ -423,7 +423,7 @@ export default function CinqTechniquesGestionStress() {
                 Réserver une séance
               </Link>
             </Button>
-            <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-blue-600">
+            <Button asChild size="lg" className="text-white border-white hover:bg-white/10 hover:text-white hover:border-white">
               <Link href="/prestations/individuel">
                 <User className="w-5 h-5 mr-2" />
                 En savoir plus

@@ -33,28 +33,28 @@ export default function Reservation() {
       id: 'individuel',
       name: 'Séance individuelle',
       duration: '1h',
-      price: '70€',
+      price: '40€',
       description: 'Accompagnement personnalisé'
     },
     {
       id: 'groupe',
       name: 'Atelier de groupe',
       duration: '1h30',
-      price: '35€',
+      price: '30€',
       description: 'Séance collective (max 8 personnes)'
     },
     {
       id: 'en-ligne',
       name: 'Consultation en ligne',
       duration: '45min',
-      price: '60€',
+      price: '40€',
       description: 'Séance par visioconférence'
     },
     {
       id: 'decouverte',
       name: 'Séance découverte',
       duration: '1h',
-      price: '70€',
+      price: '40€',
       description: 'Première séance avec bilan'
     }
   ]

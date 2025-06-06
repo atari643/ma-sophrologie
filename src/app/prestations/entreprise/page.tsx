@@ -198,7 +198,7 @@ export default function SophrologieEntreprise() {
       rating: 5,
       comment: "Les ateliers sophrologie ont considérablement amélioré l'ambiance de travail. Nos équipes sont plus sereines face aux situations difficiles.",
       results: "Réduction de 35% de l'absentéisme",
-      contact: "Dr. Marie Dubois, DRH"
+      contact: "Dr. Muriel Artigala, DRH"
     },
     {
       company: "TechnoSoft Solutions",

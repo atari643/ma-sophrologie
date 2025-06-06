@@ -128,7 +128,7 @@ export default function AteliersGroupe() {
   const pricing = [
     {
       name: "Séance découverte",
-      price: "35€",
+      price: "30€",
       description: "Parfait pour découvrir l'expérience de groupe",
       features: [
         "Une séance d'1h30",
@@ -141,22 +141,22 @@ export default function AteliersGroupe() {
     },
     {
       name: "Carte 5 séances",
-      price: "150€",
-      originalPrice: "175€",
+      price: "140€",
+      originalPrice: "150€",
       description: "Formule économique pour un suivi régulier",
       features: [
         "5 séances d'1h30",
         "Valable 3 mois",
         "Choix des thématiques", 
         "Supports audio offerts",
-        "Économie de 25€",
+        "Économie de 10€",
         "Flexibilité totale"
       ],
       popular: true
     },
     {
       name: "Abonnement mensuel",
-      price: "120€/mois",
+      price: "100€/mois",
       description: "Accès illimité à tous les ateliers",
       features: [
         "Ateliers illimités",
@@ -226,7 +226,7 @@ export default function AteliersGroupe() {
             <div className="hidden sm:block w-1 h-1 bg-gray-300 rounded-full"></div>
             <div className="flex items-center gap-2 text-blue-600">
               <Euro className="w-5 h-5" />
-              <span className="font-semibold">35€/séance</span>
+              <span className="font-semibold">30€/séance</span>
             </div>
           </div>
 

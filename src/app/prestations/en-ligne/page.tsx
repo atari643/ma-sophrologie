@@ -104,8 +104,8 @@ export default function ConsultationsEnLigne() {
   const pricing = [
     {
       name: "Séance découverte",
-      price: "60€",
-      originalPrice: "70€",
+      price: "40€",
+      originalPrice: null,
       duration: "45 minutes",
       description: "Première séance pour découvrir la sophrologie en ligne",
       features: [
@@ -119,8 +119,8 @@ export default function ConsultationsEnLigne() {
     },
     {
       name: "Forfait Régulier",
-      price: "280€",
-      originalPrice: "350€",
+      price: "190€",
+      originalPrice: "200€",
       duration: "5 séances de 45min",
       description: "Accompagnement idéal pour des résultats durables",
       features: [
@@ -128,15 +128,15 @@ export default function ConsultationsEnLigne() {
         "4 séances de suivi personnalisées",
         "Supports audio sur mesure",
         "Suivi par email illimité",
-        "Économie de 70€",
+        "Économie de 10€",
         "Flexibilité maximale"
       ],
       popular: true
     },
     {
       name: "Accompagnement Intensif",
-      price: "520€",
-      originalPrice: "700€",
+      price: "380€",
+      originalPrice: "400€",
       duration: "10 séances de 45min",
       description: "Programme complet pour une transformation profonde",
       features: [
@@ -144,7 +144,7 @@ export default function ConsultationsEnLigne() {
         "Accompagnement sur 3 mois",
         "Séances de renforcement",
         "Bilan intermédiaire et final",
-        "Économie de 180€",
+        "Économie de 20€",
         "Support technique prioritaire"
       ],
       popular: false
@@ -254,7 +254,7 @@ export default function ConsultationsEnLigne() {
             <div className="hidden sm:block w-1 h-1 bg-gray-300 rounded-full"></div>
             <div className="flex items-center gap-2 text-green-600">
               <Euro className="w-5 h-5" />
-              <span className="font-semibold">À partir de 60€</span>
+              <span className="font-semibold">À partir de 40€</span>
             </div>
             <div className="hidden sm:block w-1 h-1 bg-gray-300 rounded-full"></div>
             <div className="flex items-center gap-2 text-green-600">

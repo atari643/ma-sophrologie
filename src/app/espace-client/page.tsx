@@ -54,7 +54,7 @@ export default function EspaceClient() {
       type: "Séance individuelle",
       duree: "1h",
       statut: "confirmée",
-      praticienne: "Marie Dubois"
+      praticienne: "Muriel Artigala"
     },
     {
       id: 2,
@@ -63,7 +63,7 @@ export default function EspaceClient() {
       type: "Consultation en ligne",
       duree: "45min",
       statut: "confirmée",
-      praticienne: "Marie Dubois"
+      praticienne: "Muriel Artigala"
     }
   ]
 

@@ -506,19 +506,19 @@ export default function GererStressFetesNoelBordeaux() {
                 <Clock className="h-8 w-8 mx-auto mb-3" />
                 <h3 className="font-semibold mb-2">Consultation Express</h3>
                 <p className="text-sm text-red-100">45 min - Techniques d'urgence</p>
-                <p className="font-bold text-lg">60€</p>
+                <p className="font-bold text-lg">40€</p>
               </div>
               <div className="bg-white/20 rounded-lg p-6 border-2 border-white/30">
                 <Gift className="h-8 w-8 mx-auto mb-3" />
                 <h3 className="font-semibold mb-2">Pack Fêtes Complètes</h3>
                 <p className="text-sm text-red-100">3 séances + suivi SMS</p>
-                <p className="font-bold text-lg">150€</p>
+                <p className="font-bold text-lg">200€</p>
               </div>
               <div className="bg-white/10 rounded-lg p-6">
                 <Users className="h-8 w-8 mx-auto mb-3" />
                 <h3 className="font-semibold mb-2">Atelier Famille</h3>
                 <p className="text-sm text-red-100">Groupe 4-6 personnes</p>
-                <p className="font-bold text-lg">40€/pers</p>
+                <p className="font-bold text-lg">30€/pers</p>
               </div>
             </div>
 

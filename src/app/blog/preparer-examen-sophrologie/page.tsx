@@ -188,7 +188,7 @@ export default function PreparerExamenSophrologie() {
               </div>
               <div className="flex items-center">
                 <User className="h-4 w-4 mr-2" />
-                <span>Dr. Marie Dubois, Sophrologue</span>
+                <span>Dr. Muriel Artigala, Sophrologue</span>
               </div>
             </div>
           </div>

@@ -149,13 +149,12 @@ export default function GererStressRentreeSophrologie() {
       <Header />
       
       <BlogStructuredData
-        headline="Gérer le Stress de la Rentrée avec la Sophrologie à Bordeaux"
+        title="Gérer le Stress de la Rentrée avec la Sophrologie à Bordeaux"
         description="Découvrez comment la sophrologie peut vous aider à aborder la rentrée scolaire et professionnelle avec sérénité à Bordeaux."
         author="Muriel Artigala"
         datePublished="2024-08-25"
         dateModified="2024-08-25"
         url="https://muriel-artigala.fr/blog/gerer-stress-rentree-sophrologie-bordeaux"
-        image="https://muriel-artigala.fr/images/blog/stress-rentree-sophrologie.jpg"
         keywords={["stress rentrée", "sophrologie Bordeaux", "rentrée scolaire", "gestion anxiété", "techniques relaxation"]}
       />
 

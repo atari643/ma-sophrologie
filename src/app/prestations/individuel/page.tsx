@@ -84,7 +84,7 @@ export default function SeancesIndividuelles() {
   const packages = [
     {
       name: "Séance découverte",
-      price: "70€",
+      price: "40€",
       originalPrice: null,
       duration: "1 séance de 60min",
       description: "Parfait pour découvrir la sophrologie et ses bienfaits",
@@ -100,8 +100,8 @@ export default function SeancesIndividuelles() {
     },
     {
       name: "Forfait Essentiel",
-      price: "320€",
-      originalPrice: "350€",
+      price: "200€",
+      originalPrice: "200€",
       duration: "5 séances",
       description: "L'accompagnement idéal pour des résultats durables",
       features: [
@@ -109,7 +109,7 @@ export default function SeancesIndividuelles() {
         "4 séances de suivi personnalisées",
         "Supports audio sur mesure",
         "Suivi par email entre séances",
-        "Économie de 30€",
+        "Tarif unitaire de 40€",
         "Flexibilité dans la programmation"
       ],
       popular: true,
@@ -117,8 +117,8 @@ export default function SeancesIndividuelles() {
     },
     {
       name: "Forfait Transformation",
-      price: "600€",
-      originalPrice: "700€",
+      price: "400€",
+      originalPrice: "400€",
       duration: "10 séances",
       description: "Pour un changement profond et durable",
       features: [
@@ -126,7 +126,7 @@ export default function SeancesIndividuelles() {
         "Accompagnement complet sur 3 mois",
         "Séances de renforcement incluses",
         "Bilan intermédiaire et final",
-        "Économie de 100€",
+        "Tarif unitaire de 40€",
         "Accès privilégié aux ateliers"
       ],
       popular: false,
@@ -204,7 +204,7 @@ export default function SeancesIndividuelles() {
             <div className="hidden sm:block w-1 h-1 bg-gray-300 rounded-full"></div>
             <div className="flex items-center gap-2 text-purple-600">
               <Euro className="w-5 h-5" />
-              <span className="font-semibold">À partir de 70€</span>
+              <span className="font-semibold">À partir de 40€</span>
             </div>
             <div className="hidden sm:block w-1 h-1 bg-gray-300 rounded-full"></div>
             <div className="flex items-center gap-2 text-purple-600">
@@ -442,7 +442,7 @@ export default function SeancesIndividuelles() {
                 Bilan gratuit
               </Link>
             </Button>
-            <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-purple-600">
+            <Button asChild size="lg" className="bg-purple-700 hover:bg-purple-800">
               <Link href="/reservation">
                 <Calendar className="w-5 h-5 mr-2" />
                 Réserver maintenant

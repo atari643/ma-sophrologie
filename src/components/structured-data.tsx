@@ -62,13 +62,6 @@ export default function StructuredData() {
     "sameAs": [
       "https://g.co/kgs/sXFf524"
     ],
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "38",
-      "bestRating": "5",
-      "worstRating": "1"
-    },
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Services de Sophrologie",

@@ -171,7 +171,7 @@ export default function GestionStressBordeaux() {
                   </div>
                   <div className="flex justify-between items-center">
                     <span className="text-green-800">Accompagnement individuel en entreprise</span>
-                    <span className="font-semibold text-green-900">60€/séance</span>
+                    <span className="font-semibold text-green-900">40€/séance</span>
                   </div>
                 </CardContent>
               </Card>

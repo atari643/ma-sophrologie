@@ -576,7 +576,7 @@ export default function PreparationExamensSophrologie() {
                 <Clock className="h-8 w-8 mx-auto mb-3" />
                 <h3 className="font-semibold mb-2">Session Découverte</h3>
                 <p className="text-sm text-blue-100">1h - Techniques de base</p>
-                <p className="font-bold text-lg">50€</p>
+                <p className="font-bold text-lg">40€</p>
               </div>
               <div className="bg-white/20 rounded-lg p-6 border-2 border-white/30">
                 <Target className="h-8 w-8 mx-auto mb-3" />
